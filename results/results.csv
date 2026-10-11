@@ -1,0 +1,260 @@
+id,category,difficulty,method,question,correct_answer,response,response_time_seconds,total_elapsed_seconds,input_tokens,output_tokens,status
+Q001,Mathematics,Easy,Direct,What is 15 percent of 200?,30,30,3.763,3.763,30.0,2.0,Success
+Q001,Mathematics,Easy,Structured,What is 15 percent of 200?,30,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Understand the terms and convert the percentage**
+* ""Percent"" means ""per one hundred."" 
+* Convert $15\%$ into a fraction or a decimal:
+  $$\text{Fraction: } \frac{15}{100}$$
+  $$\text{Decimal: } 0.15$$
+
+---
+
+### **Step 2: Perform the calculation**
+To find $15\%$ of $200$, multiply the converted percentage by $200$:
+
+* **Using fractions:**
+  $$\frac{15}{100} \times 200 = 15 \times \frac{200}{100} = 15 \times 2 = 30$$
+
+* **Using decimals:**
+  $$0.15 \times 200 = 30$$
+
+---
+
+### **Step 3: Check the result**
+We can check the answer using mental benchmark percentages:
+* $10\%$ of $200 = 20$
+* $5\%$ of $200 = 10$ (half of $10\%$)
+* $15\% = 10\% + 5\% = 20 + 10 = 30$
+
+The calculation is confirmed to be correct.
+
+---
+
+### **Final Answer:**
+$15$ percent of $200$ is **$30$**.",14.732,14.732,53.0,327.0,Success
+Q002,Mathematics,Medium,Direct,An item costs 800 rupees and sells for 1000 rupees. Calculate the profit percentage.,25%,25%,2.11,2.11,41.0,3.0,Success
+Q002,Mathematics,Medium,Structured,An item costs 800 rupees and sells for 1000 rupees. Calculate the profit percentage.,25%,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Identify the given values**
+* **Cost Price (CP):** $800\text{ rupees}$
+* **Selling Price (SP):** $1000\text{ rupees}$
+
+---
+
+### **Step 2: Calculate the profit**
+Profit is calculated by subtracting the Cost Price from the Selling Price:
+$$\text{Profit} = \text{Selling Price} - \text{Cost Price}$$
+$$\text{Profit} = 1000 - 800 = 200\text{ rupees}$$
+
+---
+
+### **Step 3: Calculate the profit percentage**
+The formula for profit percentage is:
+$$\text{Profit Percentage} = \left(\frac{\text{Profit}}{\text{Cost Price}}\right) \times 100$$
+
+Substitute the values into the formula:
+$$\text{Profit Percentage} = \left(\frac{200}{800}\right) \times 100$$
+$$\text{Profit Percentage} = \left(\frac{1}{4}\right) \times 100 = 25\%$$
+
+---
+
+### **Step 4: Check the result**
+* $25\%$ of the Cost Price ($800\text{ rupees}$) is:
+  $$0.25 \times 800 = 200\text{ rupees}$$
+* Adding this profit to the Cost Price gives the Selling Price:
+  $$800 + 200 = 1000\text{ rupees}$$
+
+The calculation is verified and correct.
+
+---
+
+### **Final Answer**
+The profit percentage is **$25\%$**.",4.167,4.167,64.0,378.0,Success
+Q003,Mathematics,Hard,Direct,A number is increased by 20 percent and then decreased by 20 percent. What is the overall percentage change?,4% decrease,4 percent decrease (or -4%),2.271,2.271,43.0,8.0,Success
+Q003,Mathematics,Hard,Structured,A number is increased by 20 percent and then decreased by 20 percent. What is the overall percentage change?,4% decrease,"To solve this problem, we will follow a structured approach.
+
+---
+
+### **Step 1: Choose an Initial Value**
+Let the original number be $100$ (using $100$ makes percentage calculations straightforward). 
+
+---
+
+### **Step 2: Apply the First Change (20% Increase)**
+* Increase = $20\% \text{ of } 100 = 0.20 \times 100 = 20$
+* New Value after increase = $100 + 20 = 120$
+
+---
+
+### **Step 3: Apply the Second Change (20% Decrease)**
+The 20% decrease applies to the **new** value ($120$), not the original number.
+* Decrease = $20\% \text{ of } 120 = 0.20 \times 120 = 24$
+* Final Value after decrease = $120 - 24 = 96$
+
+---
+
+### **Step 4: Calculate the Overall Percentage Change**
+* Absolute Change = $\text{Final Value} - \text{Initial Value} = 96 - 100 = -4$
+* Percentage Change = $\left(\frac{\text{Change}}{\text{Initial Value}}\right) \times 100 = \left(\frac{-4}{100}\right) \times 100 = -4\%$
+
+The negative sign indicates a decrease.
+
+---
+
+### **Step 5: Verification using Multipliers (Algebraic Method)**
+Let the original number be $x$.
+1. Increasing by $20\%$ multiplies $x$ by $(1 + 0.20) = 1.20$.
+2. Decreasing by $20\%$ multiplies the result by $(1 - 0.20) = 0.80$.
+
+$$\text{Final Value} = x \times 1.20 \times 0.80 = 0.96x$$
+
+$$\text{Overall Change} = \frac{0.96x - x}{x} \times 100\% = -0.04 \times 100\% = -4\%$$
+
+Both methods yield the same result.
+
+---
+
+### **Final Answer**
+The overall percentage change is a **decrease of 4%** (or **$-4\%$**).",4.524,4.524,66.0,528.0,Success
+Q004,Logical,Easy,Direct,"A is taller than B, and B is taller than C. Who is the shortest?",C,C,2.877,18.122,36.0,1.0,Success
+Q004,Logical,Easy,Structured,"A is taller than B, and B is taller than C. Who is the shortest?",C,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Identify the given information**
+* Relationship 1: $A$ is taller than $B$ ($A > B$).
+* Relationship 2: $B$ is taller than $C$ ($B > C$).
+
+---
+
+### **Step 2: Combine the relationships**
+Using the transitive property of height comparisons:
+* Since $A > B$ and $B > C$, we can combine these into a single ordering from tallest to shortest:
+  $$\text{Height: } A > B > C$$
+
+---
+
+### **Step 3: Analyze the order**
+* **Tallest:** $A$
+* **Middle:** $B$
+* **Shortest:** $C$
+
+---
+
+### **Step 4: Check the result**
+* Is $A$ taller than $B$? Yes.
+* Is $B$ taller than $C$? Yes.
+* There is no one shorter than $C$.
+
+---
+
+### **Final Answer:**
+**C** is the shortest.",6.371,6.371,59.0,233.0,Success
+Q005,Logical,Medium,Direct,All roses are flowers. No flowers are made of metal. Can any rose be made of metal according to these statements?,No,No,6.279,6.279,42.0,1.0,Success
+Q005,Logical,Medium,Structured,All roses are flowers. No flowers are made of metal. Can any rose be made of metal according to these statements?,No,"To solve this question, we can use a structured deductive reasoning approach (categorical syllogism).
+
+### **Step 1: Identify the Given Premises**
+1. **Premise 1:** All roses are flowers. 
+   * In set notation: $\text{Roses} \subseteq \text{Flowers}$
+2. **Premise 2:** No flowers are made of metal. 
+   * In set notation: $\text{Flowers} \cap \text{Made of metal} = \emptyset$
+
+---
+
+### **Step 2: Perform the Logical Reasoning**
+* Let $x$ be any rose.
+* According to **Premise 1**, because $x$ is a rose, $x$ must be a flower ($x \in \text{Flowers}$).
+* According to **Premise 2**, anything that is a flower cannot be made of metal ($x \notin \text{Made of metal}$).
+* By the transitive property of inclusion, since the entire set of roses is contained within the set of flowers, and none of the set of flowers can be made of metal, no member of the set of roses can be made of metal.
+
+---
+
+### **Step 3: Check the Result**
+* This forms a standard classical syllogism of the form *Celarent*:
+  * **Major Premise:** No $M$ (flowers) are $P$ (made of metal).
+  * **Minor Premise:** All $S$ (roses) are $M$ (flowers).
+  * **Conclusion:** No $S$ (roses) are $P$ (made of metal).
+* The conclusion logically and necessarily follows from the premises without contradiction.
+
+---
+
+### **Final Answer**
+**No**, according to the statements, no rose can be made of metal.",5.647,5.647,65.0,382.0,Success
+Q006,Logical,Hard,Direct,"A three-digit code uses distinct digits. The first digit is twice the second digit, and the third digit is the sum of the first two digits. If the second digit is 2, what is the code?",426,426,2.621,2.621,62.0,3.0,Success
+Q006,Logical,Hard,Structured,"A three-digit code uses distinct digits. The first digit is twice the second digit, and the third digit is the sum of the first two digits. If the second digit is 2, what is the code?",426,"To solve the question, we follow a structured step-by-step approach:
+
+### **Step 1: Identify the given information**
+Let the three-digit code be represented as $d_1 d_2 d_3$, where:
+- $d_1$ is the first digit
+- $d_2$ is the second digit
+- $d_3$ is the third digit
+
+We are given:
+1. The second digit is $2$ ($d_2 = 2$).
+2. The first digit is twice the second digit ($d_1 = 2 \times d_2$).
+3. The third digit is the sum of the first two digits ($d_3 = d_1 + d_2$).
+4. All digits must be distinct.
+
+---
+
+### **Step 2: Calculate each digit**
+1. **Second digit ($d_2$):**
+   $$d_2 = 2$$
+
+2. **First digit ($d_1$):**
+   $$d_1 = 2 \times 2 = 4$$
+
+3. **Third digit ($d_3$):**
+   $$d_3 = d_1 + d_2 = 4 + 2 = 6$$
+
+---
+
+### **Step 3: Check the conditions**
+- **First digit is twice the second:** $4 = 2 \times 2$ (True)
+- **Third digit is the sum of the first two:** $6 = 4 + 2$ (True)
+- **Digits are distinct:** The digits are $4$, $2$, and $6$, which are all different (True)
+- **Valid digits:** $4$, $2$, and $6$ are single digits between $0$ and $9$ (True)
+
+---
+
+### **Final Answer:**
+The code is **426**.",5.452,5.452,85.0,405.0,Success
+Q007,Aptitude,Easy,Direct,A vehicle travels 150 km in 3 hours at a constant speed. What is its speed in km per hour?,50 km/h,,,,,,Failed
+Q007,Aptitude,Easy,Structured,A vehicle travels 150 km in 3 hours at a constant speed. What is its speed in km per hour?,50 km/h,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Identify the given information**
+* **Distance ($d$):** $150\text{ km}$
+* **Time ($t$):** $3\text{ hours}$
+
+---
+
+### **Step 2: Identify the formula**
+The formula for speed ($v$) when traveling at a constant rate is:
+$$\text{Speed} = \frac{\text{Distance}}{\text{Time}}$$
+
+---
+
+### **Step 3: Perform the calculation**
+Substitute the given values into the formula:
+$$\text{Speed} = \frac{150\text{ km}}{3\text{ hours}} = 50\text{ km/h}$$
+
+---
+
+### **Step 4: Check the result**
+To verify, multiply the calculated speed by the time:
+$$\text{Distance} = 50\text{ km/h} \times 3\text{ hours} = 150\text{ km}$$
+The result matches the original distance given in the problem.
+
+---
+
+### **Final Answer**
+The vehicle's speed is **$50\text{ km/h}$** (kilometers per hour).",4.175,19.341,67.0,269.0,Success
+Q008,Aptitude,Medium,Direct,"A can complete a job in 6 days and B can complete the same job in 3 days. How many days will they take together, assuming constant work rates?",2 days,,,,,,Failed
+Q008,Aptitude,Medium,Structured,"A can complete a job in 6 days and B can complete the same job in 3 days. How many days will they take together, assuming constant work rates?",2 days,,,,,,Failed
+Q009,Aptitude,Hard,Direct,A 30-litre mixture contains 40 percent milk. How many litres of pure milk must be added to make the mixture 50 percent milk?,6 litres,,,,,,Failed
+Q009,Aptitude,Hard,Structured,A 30-litre mixture contains 40 percent milk. How many litres of pure milk must be added to make the mixture 50 percent milk?,6 litres,,,,,,Failed
+Q010,Algorithms,Easy,Direct,Which data structure follows the Last In First Out (LIFO) principle?,Stack,,,,,,Failed
+Q010,Algorithms,Easy,Structured,Which data structure follows the Last In First Out (LIFO) principle?,Stack,,,,,,Failed
+Q011,Algorithms,Medium,Direct,"Two nested loops each execute n times, and the inner loop performs constant-time work. What is the time complexity?",O(n^2),,,,,,Failed
+Q011,Algorithms,Medium,Structured,"Two nested loops each execute n times, and the inner loop performs constant-time work. What is the time complexity?",O(n^2),,,,,,Failed
+Q012,Algorithms,Hard,Direct,What is the worst-case time complexity of binary search on a sorted array containing n elements?,O(log n),,,,,,Failed
+Q012,Algorithms,Hard,Structured,What is the worst-case time complexity of binary search on a sorted array containing n elements?,O(log n),,,,,,Failed

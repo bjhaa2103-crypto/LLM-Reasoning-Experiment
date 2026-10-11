@@ -1,0 +1,13 @@
+id,category,difficulty,question,correct_answer
+Q001,Mathematics,Easy,"What is 15 percent of 200?",30
+Q002,Mathematics,Medium,"An item costs 800 rupees and sells for 1000 rupees. Calculate the profit percentage.",25%
+Q003,Mathematics,Hard,"A number is increased by 20 percent and then decreased by 20 percent. What is the overall percentage change?",4% decrease
+Q004,Logical,Easy,"A is taller than B, and B is taller than C. Who is the shortest?",C
+Q005,Logical,Medium,"All roses are flowers. No flowers are made of metal. Can any rose be made of metal according to these statements?",No
+Q006,Logical,Hard,"A three-digit code uses distinct digits. The first digit is twice the second digit, and the third digit is the sum of the first two digits. If the second digit is 2, what is the code?",426
+Q007,Aptitude,Easy,"A vehicle travels 150 km in 3 hours at a constant speed. What is its speed in km per hour?",50 km/h
+Q008,Aptitude,Medium,"A can complete a job in 6 days and B can complete the same job in 3 days. How many days will they take together, assuming constant work rates?",2 days
+Q009,Aptitude,Hard,"A 30-litre mixture contains 40 percent milk. How many litres of pure milk must be added to make the mixture 50 percent milk?",6 litres
+Q010,Algorithms,Easy,"Which data structure follows the Last In First Out (LIFO) principle?",Stack
+Q011,Algorithms,Medium,"Two nested loops each execute n times, and the inner loop performs constant-time work. What is the time complexity?",O(n^2)
+Q012,Algorithms,Hard,"What is the worst-case time complexity of binary search on a sorted array containing n elements?",O(log n)
