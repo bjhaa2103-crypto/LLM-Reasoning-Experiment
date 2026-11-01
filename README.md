@@ -111,6 +111,27 @@ Other limitations include the small dataset, evaluation using a single model, an
 - Compare performance across different problem categories.
 - Investigate the relationship between reasoning quality, accuracy, latency, and token usage.
 
+  ## 👩‍💻 Project Contributors
+
+This project was collaboratively developed by:
+
+### 1. Bhavya Jha
+- Gemini API integration using Python.
+- Implementation of Direct and Structured prompting.
+- Experiment execution and response collection.
+- Performance analysis and result visualisation.
+- GitHub project organisation and documentation.
+
+### 2. Harshita
+- Research background and problem formulation.
+- Dataset preparation and question categorisation.
+- Experimental methodology and prompt design.
+- Analysis and interpretation of experimental findings.
+- Presentation preparation and documentation.
+
+Both contributors collaborated on the project design, experimentation,
+discussion of results and final conclusions.
+
 ## 🔐 Security
 
 API credentials are stored locally in a `.env` file and excluded from version control using `.gitignore`.
