@@ -1,0 +1,61 @@
+﻿id,category,difficulty,question,correct_answer
+Q001,Mathematics,Easy,What is 18% of 250?,45
+Q002,Mathematics,Easy,Solve for x: 3x + 7 = 25.,6
+Q003,Mathematics,Easy,"What is the mean of 4, 8, 10, and 14?",9
+Q004,Mathematics,Easy,A rectangle has length 12 cm and width 5 cm. What is its area in square centimetres?,60
+Q005,Mathematics,Easy,What is the value of 2^5 × 2^2?,128
+Q006,Mathematics,Medium,"Solve the simultaneous equations: 2x + y = 11 and x - y = 1. Find (x, y).","(4, 3)"
+Q007,Mathematics,Medium,"A bag contains 5 red, 3 blue, and 2 green balls. One ball is selected at random. What is the probability that it is not blue?",7/10
+Q008,Mathematics,Medium,The sum of the first n positive integers is 210. Find n.,20
+Q009,Mathematics,Medium,"A shop gives a 20% discount on an item marked at ₹1,500. What is the selling price?","₹1,200"
+Q010,Mathematics,Medium,"Find the determinant of the matrix [[3, 2], [5, 4]].",2
+Q011,Mathematics,Hard,The roots of x² - 7x + k = 0 differ by 1. Find k.,12
+Q012,Mathematics,Hard,A fair coin is tossed 5 times. What is the probability of getting exactly 3 heads?,5/16
+Q013,Mathematics,Hard,"If f(x) = x³ - 3x² + 2, find f'(2).",0
+Q014,Mathematics,Hard,A geometric progression has first term 3 and common ratio 2. Find the sum of its first 8 terms.,765
+Q015,Mathematics,Hard,"Find the inverse of the matrix [[2, 1], [5, 3]].","[[3, -1], [-5, 2]]"
+Q016,Logical Reasoning,Easy,"Complete the series: 2, 4, 6, 8, __.",10
+Q017,Logical Reasoning,Easy,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly? Answer Yes or No.",No
+Q018,Logical Reasoning,Easy,"Ravi is taller than Aman, and Aman is taller than Neha. Who is the shortest?",Neha
+Q019,Logical Reasoning,Easy,"If MONDAY is coded as NPOEBZ by shifting each letter one position forward, how is SUNDAY coded using the same rule?",TVOEBZ
+Q020,Logical Reasoning,Easy,"Which number does not belong: 9, 16, 25, 36, 49?",None; all are perfect squares
+Q021,Logical Reasoning,Medium,"Five people P, Q, R, S, and T stand in a line. P is before Q, R is after Q, S is before P, and T is after R. Who is in the middle?",Q
+Q022,Logical Reasoning,Medium,"In a code, TABLE is written as UBCMF (each letter shifted forward by one). How is CHAIR written?",DIBJS
+Q023,Logical Reasoning,Medium,A clock shows 3:30. What is the smaller angle between the hour and minute hands?,75 degrees
+Q024,Logical Reasoning,Medium,A is the brother of B. B is the mother of C. How is A related to C?,Maternal uncle
+Q025,Logical Reasoning,Medium,"Find the next term: 3, 8, 15, 24, 35, __.",48
+Q026,Logical Reasoning,Hard,"Six people A, B, C, D, E, and F sit in a row. A is immediately left of B; C is immediately right of B; D is at the left end; E is immediately left of F; and F is at the right end. Who sits third from the left?",B
+Q027,Logical Reasoning,Hard,"A statement says: 'If the alarm is set, the light is on.' The light is off. Assuming the statement is true, what can be concluded about the alarm?",The alarm is not set
+Q028,Logical Reasoning,Hard,"Find the missing number: 1, 2, 6, 24, 120, __.",720
+Q029,Logical Reasoning,Hard,"Three boxes are labelled Apples, Oranges, and Mixed. Every label is incorrect. You may pick one fruit from one box. From which labelled box should you pick to identify all boxes?",The box labelled Mixed
+Q030,Logical Reasoning,Hard,"In a group of 60 students, 35 study Python, 30 study Java, and 10 study neither. How many study both Python and Java?",15
+Q031,Aptitude,Easy,A car travels 150 km in 3 hours at a constant speed. What is its speed in km/h?,50 km/h
+Q032,Aptitude,Easy,"A product costs ₹800 and is sold for ₹1,000. What is the profit percentage?",25%
+Q033,Aptitude,Easy,"If 6 notebooks cost ₹90, what is the cost of 10 notebooks at the same rate?",₹150
+Q034,Aptitude,Easy,"A person earns ₹20,000 per month and saves 15% of it. How much does the person save?","₹3,000"
+Q035,Aptitude,Easy,A train covers 120 km in 2 hours. How far will it travel in 5 hours at the same speed?,300 km
+Q036,Aptitude,Medium,A can complete a job in 6 days and B can complete it in 3 days. How long will they take working together?,2 days
+Q037,Aptitude,Medium,A 30-litre mixture contains 40% milk. How many litres of pure milk must be added to make the mixture 50% milk?,6 litres
+Q038,Aptitude,Medium,"The average of 8 numbers is 24. If one number, 32, is removed, what is the average of the remaining 7 numbers?",160/7 (approximately 22.857)
+Q039,Aptitude,Medium,"A sum of ₹5,000 is invested at 8% simple interest per annum for 3 years. Find the interest.","₹1,200"
+Q040,Aptitude,Medium,A number is increased by 20% and then decreased by 20%. What is the net percentage change?,4% decrease
+Q041,Aptitude,Hard,A and B together can complete a task in 12 days. A alone can complete it in 20 days. How many days will B alone take?,30 days
+Q042,Aptitude,Hard,A train 180 metres long crosses a pole in 12 seconds. What is its speed in km/h?,54 km/h
+Q043,Aptitude,Hard,A vessel contains 60 litres of a milk-water mixture in the ratio 2:1. How much water must be added to make the ratio 1:1?,20 litres
+Q044,Aptitude,Hard,"The marked price of an item is ₹2,500. After successive discounts of 10% and 20%, what is the final selling price?","₹1,800"
+Q045,Aptitude,Hard,A person travels the first half of a journey at 40 km/h and the second half at 60 km/h. What is the average speed for the whole journey?,48 km/h
+Q046,Algorithms,Easy,"Which linear data structure follows the Last-In, First-Out (LIFO) principle?",Stack
+Q047,Algorithms,Easy,What is the worst-case time complexity of accessing an element by index in an array?,O(1)
+Q048,Algorithms,Easy,Which traversal of a binary search tree visits keys in non-decreasing order?,Inorder traversal
+Q049,Algorithms,Easy,What is the time complexity of linear search in the worst case for an array of n elements?,O(n)
+Q050,Algorithms,Easy,Which data structure is commonly used to implement Breadth-First Search (BFS)?,Queue
+Q051,Algorithms,Medium,What is the worst-case time complexity of binary search on a sorted array of n elements?,O(log n)
+Q052,Algorithms,Medium,"An algorithm has two consecutive loops, each running n times, with constant work per iteration. What is its time complexity?",O(n)
+Q053,Algorithms,Medium,"What is the time complexity of inserting a new node at the beginning of a singly linked list, given a pointer to the head?",O(1)
+Q054,Algorithms,Medium,Which sorting algorithm has worst-case time complexity O(n log n) and is based on dividing the array into two halves and merging them?,Merge sort
+Q055,Algorithms,Medium,"For a graph represented by an adjacency list, what is the time complexity of BFS in terms of vertices V and edges E?",O(V + E)
+Q056,Algorithms,Hard,What is the worst-case time complexity of Quick Sort when the pivot repeatedly produces partitions of sizes 0 and n-1?,O(n²)
+Q057,Algorithms,Hard,"A recurrence is T(n) = 2T(n/2) + n, with T(1) = 1. What is its asymptotic time complexity?",O(n log n)
+Q058,Algorithms,Hard,"In a binary min-heap containing n elements, what is the worst-case time complexity of finding the minimum element?",O(1)
+Q059,Algorithms,Hard,What is the worst-case time complexity of building a binary heap from an unsorted array using bottom-up heap construction?,O(n)
+Q060,Algorithms,Hard,A directed acyclic graph (DAG) has V vertices and E edges. What is the time complexity of topological sorting using Kahn's algorithm with an adjacency list?,O(V + E)

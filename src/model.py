@@ -1,7 +1,7 @@
 import time
 from google import genai
 
-MODEL_NAME = "gemini-3.8-flash"
+MODEL_NAME = "gemini-3.6-flash"
 
 
 def generate_response(client, question, method, max_retries=4):

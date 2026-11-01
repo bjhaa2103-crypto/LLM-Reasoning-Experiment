@@ -1,0 +1,1151 @@
+id,category,difficulty,method,question,correct_answer,response,response_time_seconds,total_elapsed_seconds,input_tokens,output_tokens,status,model_used
+Q001,Mathematics,Easy,Direct,What is 18% of 250?,45,45,24.499,24.499,30.0,2.0,success,gemini-3.6-flash
+Q001,Mathematics,Easy,Structured,What is 18% of 250?,45,"Here is the step-by-step solution to the problem.
+
+---
+
+### **Step 1: Understand the percentage concept and set up the equation**
+A percentage represents a fraction out of 100. 
+* $18\%$ can be written as a fraction: $\frac{18}{100}$ or as a decimal: $0.18$.
+
+To find 18% of 250, set up the multiplication equation:
+$$\text{Result} = 0.18 \times 250$$
+*or*
+$$\text{Result} = \frac{18}{100} \times 250$$
+
+---
+
+### **Step 2: Perform the calculation**
+
+Using the fraction method:
+1. Multiply 18 by 250:
+   $$18 \times 250 = 4,500$$
+
+2. Divide the result by 100:
+   $$\frac{4,500}{100} = 45$$
+
+---
+
+### **Step 3: Verify the result using an alternative method**
+
+To double-check the calculation, break $18\%$ down into easier components ($10\% + 5\% + 3\%$):
+
+* **$10\%$ of $250$** = $25$
+* **$5\%$ of $250$** (half of 10%) = $12.5$
+* **$1\%$ of $250$** = $2.5$ $\rightarrow$ **$3\%$ of $250$** = $2.5 \times 3 = 7.5$
+
+Now, add them together:
+$$18\% = 10\% + 5\% + 3\%$$
+$$\text{Result} = 25 + 12.5 + 7.5 = 45$$
+
+Both methods yield the same result.
+
+---
+
+### **Final Answer**
+**45** (18% of 250 is 45).",43.395,43.395,53.0,457.0,success,gemini-3.6-flash
+Q002,Mathematics,Easy,Direct,Solve for x: 3x + 7 = 25.,6,x = 6,18.948,18.948,33.0,4.0,success,gemini-3.6-flash
+Q002,Mathematics,Easy,Structured,Solve for x: 3x + 7 = 25.,6,"Here is the step-by-step solution to solve for $x$:
+
+---
+
+### **Step 1: Identify the given equation**
+The equation to solve is:
+$$3x + 7 = 25$$
+
+---
+
+### **Step 2: Isolate the variable term**
+Subtract $7$ from both sides of the equation to isolate the term with $x$ ($3x$):
+$$3x + 7 - 7 = 25 - 7$$
+$$3x = 18$$
+
+---
+
+### **Step 3: Solve for $x$**
+Divide both sides by $3$ to find the value of $x$:
+$$\frac{3x}{3} = \frac{18}{3}$$
+$$x = 6$$
+
+---
+
+### **Step 4: Check the result**
+Substitute $x = 6$ back into the original equation to verify if it holds true:
+$$3(6) + 7 = 25$$
+$$18 + 7 = 25$$
+$$25 = 25 \quad \text{(True)}$$
+
+Since both sides are equal, the solution is correct.
+
+---
+
+### **Final Answer**
+$$x = 6$$",48.251,48.251,56.0,272.0,success,gemini-3.6-flash
+Q003,Mathematics,Easy,Direct,"What is the mean of 4, 8, 10, and 14?",9,9,32.995,32.995,38.0,,success,gemini-3.6-flash
+Q003,Mathematics,Easy,Structured,"What is the mean of 4, 8, 10, and 14?",9,"Here is the step-by-step solution to find the mean of the numbers 4, 8, 10, and 14.
+
+---
+
+### **Step 1: Understand the Formula**
+The arithmetic mean (average) of a set of numbers is calculated using the formula:
+$$\text{Mean} = \frac{\text{Sum of all values}}{\text{Total number of values}}$$
+
+---
+
+### **Step 2: Calculate the Sum of the Values**
+Add all the given numbers together:
+$$\text{Sum} = 4 + 8 + 10 + 14$$
+
+* $4 + 8 = 12$
+* $12 + 10 = 22$
+* $22 + 14 = 36$
+
+$$\text{Sum} = 36$$
+
+---
+
+### **Step 3: Count the Total Number of Values**
+Count how many numbers are in the set:
+$$\text{Total number of values } (n) = 4$$
+
+---
+
+### **Step 4: Divide the Sum by the Count**
+Divide the sum obtained in Step 2 by the count from Step 3:
+$$\text{Mean} = \frac{36}{4} = 9$$
+
+---
+
+### **Step 5: Check the Result**
+We can verify the mean by calculating the sum of the deviations of each number from the mean ($9$):
+* $(4 - 9) = -5$
+* $(8 - 9) = -1$
+* $(10 - 9) = +1$
+* $(14 - 9) = +5$
+
+$$\text{Sum of deviations} = -5 + (-1) + 1 + 5 = 0$$
+
+Since the sum of the deviations equals 0, the calculation is correct.
+
+---
+
+### **Final Answer:**
+The mean of 4, 8, 10, and 14 is **9**.",6.166,6.166,61.0,433.0,success,gemini-3.6-flash
+Q004,Mathematics,Easy,Direct,A rectangle has length 12 cm and width 5 cm. What is its area in square centimetres?,60,60,6.877,6.877,40.0,2.0,success,gemini-3.6-flash
+Q004,Mathematics,Easy,Structured,A rectangle has length 12 cm and width 5 cm. What is its area in square centimetres?,60,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Identify the given information and the formula**
+* **Given:** 
+  * Length ($l$) = $12\text{ cm}$
+  * Width ($w$) = $5\text{ cm}$
+* **Formula:** 
+  $$\text{Area of a rectangle} = \text{Length} \times \text{Width}$$
+
+---
+
+### **Step 2: Perform the calculation**
+Substitute the given values into the area formula:
+$$\text{Area} = 12\text{ cm} \times 5\text{ cm}$$
+$$\text{Area} = 60\text{ cm}^2$$
+
+---
+
+### **Step 3: Check the result**
+* Verifying through division: $\frac{60\text{ cm}^2}{5\text{ cm}} = 12\text{ cm}$, which matches the given length.
+* The units are correctly multiplied: $\text{cm} \times \text{cm} = \text{cm}^2$ (square centimetres).
+
+---
+
+### **Final Answer**
+The area of the rectangle is **$60\text{ cm}^2$** (or $60$ square centimetres).",5.962,5.962,63.0,279.0,success,gemini-3.6-flash
+Q005,Mathematics,Easy,Direct,What is the value of 2^5 × 2^2?,128,128,1.381,1.381,33.0,3.0,success,gemini-3.6-flash
+Q005,Mathematics,Easy,Structured,What is the value of 2^5 × 2^2?,128,"Here is the step-by-step solution to the problem.
+
+---
+
+### **Step 1: Identify the Exponent Rule**
+When multiplying two terms with the same base, you can use the **Product Rule of Exponents**:
+$$a^m \times a^n = a^{m+n}$$
+
+In this question:
+* Base ($a$) = $2$
+* Exponent 1 ($m$) = $5$
+* Exponent 2 ($n$) = $2$
+
+---
+
+### **Step 2: Apply the Rule**
+Combine the exponents by adding them together:
+$$2^5 \times 2^2 = 2^{5+2} = 2^7$$
+
+---
+
+### **Step 3: Perform the Calculation**
+Now, calculate the value of $2^7$:
+$$2^7 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2$$
+
+Calculating step-by-step:
+* $2 \times 2 = 4$
+* $4 \times 2 = 8$
+* $8 \times 2 = 16$
+* $16 \times 2 = 32$
+* $32 \times 2 = 64$
+* $64 \times 2 = 128$
+
+So, $2^7 = 128$.
+
+---
+
+### **Step 4: Verification (Alternative Method)**
+We can check our answer by expanding each term individually before multiplying:
+1. Calculate $2^5$: 
+   $$2^5 = 32$$
+2. Calculate $2^2$: 
+   $$2^2 = 4$$
+3. Multiply the two results together:
+   $$32 \times 4 = 128$$
+
+Both methods yield the exact same result, confirming our calculation is correct.
+
+---
+
+### **Final Answer**
+The value of $2^5 \times 2^2$ is **128**.",5.084,5.084,56.0,450.0,success,gemini-3.6-flash
+Q006,Mathematics,Medium,Direct,"Solve the simultaneous equations: 2x + y = 11 and x - y = 1. Find (x, y).","(4, 3)","(4, 3)",1.782,1.782,46.0,6.0,success,gemini-3.6-flash
+Q006,Mathematics,Medium,Structured,"Solve the simultaneous equations: 2x + y = 11 and x - y = 1. Find (x, y).","(4, 3)","Here is the step-by-step solution to the simultaneous equations:
+
+### **Step 1: Identify the given equations**
+1. $2x + y = 11$   *(Equation 1)*
+2. $x - y = 1$      *(Equation 2)*
+
+---
+
+### **Step 2: Eliminate one variable**
+We can eliminate $y$ by adding Equation 1 and Equation 2 together, since the coefficients of $y$ are $+1$ and $-1$.
+
+$$(2x + y) + (x - y) = 11 + 1$$
+
+Combining like terms:
+$$3x = 12$$
+
+Divide both sides by 3:
+$$x = \frac{12}{3}$$
+$$x = 4$$
+
+---
+
+### **Step 3: Solve for the remaining variable ($y$)**
+Substitute $x = 4$ into Equation 2:
+
+$$4 - y = 1$$
+
+Rearrange to solve for $y$:
+$$y = 4 - 1$$
+$$y = 3$$
+
+---
+
+### **Step 4: Check the solution**
+Substitute $x = 4$ and $y = 3$ into both original equations to verify:
+
+* **Equation 1:** $2(4) + 3 = 8 + 3 = 11$ (True)
+* **Equation 2:** $4 - 3 = 1$ (True)
+
+---
+
+### **Final Answer:**
+$$(x, y) = (4, 3)$$",2.955,2.955,69.0,342.0,success,gemini-3.6-flash
+Q007,Mathematics,Medium,Direct,"A bag contains 5 red, 3 blue, and 2 green balls. One ball is selected at random. What is the probability that it is not blue?",7/10,7/10,2.511,2.511,52.0,4.0,success,gemini-3.6-flash
+Q007,Mathematics,Medium,Structured,"A bag contains 5 red, 3 blue, and 2 green balls. One ball is selected at random. What is the probability that it is not blue?",7/10,,,,,,failed,gemini-3.6-flash
+Q008,Mathematics,Medium,Direct,The sum of the first n positive integers is 210. Find n.,20,20,2.062,8.84,35.0,2.0,success,gemini-3.6-flash
+Q008,Mathematics,Medium,Structured,The sum of the first n positive integers is 210. Find n.,20,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Identify the relevant formula**
+The sum of the first $n$ positive integers ($S_n$) is given by the formula:
+$$S_n = \frac{n(n + 1)}{2}$$
+
+---
+
+### **Step 2: Set up the equation**
+We are given that the sum of the first $n$ positive integers is $210$. Substituting this value into the formula gives:
+$$\frac{n(n + 1)}{2} = 210$$
+
+---
+
+### **Step 3: Solve for $n$**
+1. Multiply both sides by 2 to clear the fraction:
+   $$n(n + 1) = 420$$
+
+2. Expand and rearrange the equation into a standard quadratic form ($ax^2 + bx + c = 0$):
+   $$n^2 + n - 420 = 0$$
+
+3. Factor the quadratic equation:
+   We need two numbers that multiply to $-420$ and add up to $1$. These numbers are $21$ and $-20$.
+   $$(n + 21)(n - 20) = 0$$
+
+4. Solve for $n$:
+   $$n = -21 \quad \text{or} \quad n = 20$$
+
+Since $n$ represents a count of positive integers, it must be a positive number. Therefore, we discard $n = -21$.
+
+$$n = 20$$
+
+---
+
+### **Step 4: Verify the result**
+Substitute $n = 20$ back into the original sum formula:
+$$S_{20} = \frac{20(20 + 1)}{2} = \frac{20 \times 21}{2} = 10 \times 21 = 210$$
+
+The result matches the given sum.
+
+---
+
+### **Final Answer:**
+$$n = 20$$",4.247,6.654,58.0,449.0,success,gemini-3.6-flash
+Q009,Mathematics,Medium,Direct,"A shop gives a 20% discount on an item marked at ₹1,500. What is the selling price?","₹1,200","₹1,200",2.272,2.272,45.0,6.0,success,gemini-3.6-flash
+Q009,Mathematics,Medium,Structured,"A shop gives a 20% discount on an item marked at ₹1,500. What is the selling price?","₹1,200","Here is the step-by-step solution to find the selling price of the item.
+
+---
+
+### **Step 1: Identify the Given Information**
+* **Marked Price (MP):** ₹1,500
+* **Discount Percentage:** 20%
+
+---
+
+### **Step 2: Calculate the Discount Amount**
+The discount amount is 20% of the Marked Price.
+
+$$\text{Discount Amount} = \left(\frac{\text{Discount Percentage}}{100}\right) \times \text{Marked Price}$$
+
+$$\text{Discount Amount} = \left(\frac{20}{100}\right) \times 1,500$$
+
+$$\text{Discount Amount} = 20 \times 15 = \text{₹}300$$
+
+---
+
+### **Step 3: Calculate the Selling Price**
+Subtract the discount amount from the marked price to find the selling price.
+
+$$\text{Selling Price (SP)} = \text{Marked Price} - \text{Discount Amount}$$
+
+$$\text{Selling Price (SP)} = 1,500 - 300 = \text{₹}1,200$$
+
+---
+
+### **Step 4: Verify the Result**
+We can double-check using a direct percentage formula:
+If a 20% discount is applied, the buyer pays **80%** of the marked price ($100\% - 20\% = 80\%$).
+
+$$\text{Selling Price} = 80\% \text{ of } 1,500$$
+
+$$\text{Selling Price} = \frac{80}{100} \times 1,500 = 80 \times 15 = \text{₹}1,200$$
+
+The result is verified and consistent.
+
+---
+
+### **Final Answer:**
+The selling price of the item is **₹1,200**.",5.139,5.139,68.0,429.0,success,gemini-3.6-flash
+Q010,Mathematics,Medium,Direct,"Find the determinant of the matrix [[3, 2], [5, 4]].",2,2,1.247,1.247,36.0,1.0,success,gemini-3.6-flash
+Q010,Mathematics,Medium,Structured,"Find the determinant of the matrix [[3, 2], [5, 4]].",2,"To find the determinant of the given $2 \times 2$ matrix, we will follow a step-by-step approach.
+
+---
+
+### **Step 1: Identify the Matrix and Formula**
+Given the $2 \times 2$ matrix:
+$$A = \begin{bmatrix} 3 & 2 \\ 5 & 4 \end{bmatrix}$$
+
+The general formula for the determinant of a $2 \times 2$ matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is:
+$$\det(A) = ad - bc$$
+
+---
+
+### **Step 2: Identify the Values**
+From the matrix $A$:
+* $a = 3$
+* $b = 2$
+* $c = 5$
+* $d = 4$
+
+---
+
+### **Step 3: Perform the Calculation**
+Substitute the values into the determinant formula:
+
+$$\det(A) = (3 \times 4) - (2 \times 5)$$
+
+$$\det(A) = 12 - 10$$
+
+$$\det(A) = 2$$
+
+---
+
+### **Step 4: Verify the Result**
+* Product of the main diagonal ($3 \times 4$): $12$
+* Product of the anti-diagonal ($2 \times 5$): $10$
+* Difference ($12 - 10$): $2$
+
+The calculation is correct.
+
+---
+
+### **Final Answer**
+The determinant of the matrix is **$2$**.",3.2,3.2,59.0,340.0,success,gemini-3.6-flash
+Q011,Mathematics,Hard,Direct,The roots of x² - 7x + k = 0 differ by 1. Find k.,12,,,,,,failed,gemini-3.6-flash
+Q011,Mathematics,Hard,Structured,The roots of x² - 7x + k = 0 differ by 1. Find k.,12,"Here is the step-by-step solution to find the value of $k$.
+
+---
+
+### **Step 1: Identify the given equation and Vieta's formulas**
+Given the quadratic equation:
+$$x^2 - 7x + k = 0$$
+
+Comparing this with the standard quadratic form $ax^2 + bx + c = 0$, we have:
+* $a = 1$
+* $b = -7$
+* $c = k$
+
+Let the two roots of the equation be $\alpha$ and $\beta$. 
+
+Using Vieta's formulas:
+1. **Sum of roots:** 
+   $$\alpha + \beta = -\frac{b}{a} = -\frac{-7}{1} = 7$$
+
+2. **Product of roots:** 
+   $$\alpha\beta = \frac{c}{a} = \frac{k}{1} = k$$
+
+---
+
+### **Step 2: Apply the given condition**
+We are given that the roots differ by $1$:
+$$|\alpha - \beta| = 1$$
+
+Squaring both sides gives:
+$$(\alpha - \beta)^2 = 1^2 = 1$$
+
+---
+
+### **Step 3: Relate the difference of roots to their sum and product**
+Use the algebraic identity:
+$$(\alpha - \beta)^2 = (\alpha + \beta)^2 - 4\alpha\beta$$
+
+Substitute the known values into the identity:
+$$1 = (7)^2 - 4k$$
+
+---
+
+### **Step 4: Solve for $k$**
+$$1 = 49 - 4k$$
+$$4k = 49 - 1$$
+$$4k = 48$$
+$$k = 12$$
+
+---
+
+### **Step 5: Check and Verify the Result**
+Let's verify by finding the roots using $k = 12$:
+$$x^2 - 7x + 12 = 0$$
+
+Factoring the quadratic equation:
+$$(x - 3)(x - 4) = 0$$
+
+The roots are $x = 3$ and $x = 4$.
+The difference between the roots is $|4 - 3| = 1$, which satisfies the given condition.
+
+---
+
+### **Final Answer:**
+The value of $k$ is **$12$**.",6.009,21.216,63.0,527.0,success,gemini-3.6-flash
+Q012,Mathematics,Hard,Direct,A fair coin is tossed 5 times. What is the probability of getting exactly 3 heads?,5/16,5/16,2.067,2.067,38.0,4.0,success,gemini-3.6-flash
+Q012,Mathematics,Hard,Structured,A fair coin is tossed 5 times. What is the probability of getting exactly 3 heads?,5/16,"Here is the step-by-step solution to the problem:
+
+---
+
+### **Step 1: Identify the Problem Type and Parameters**
+This experiment consists of tossing a fair coin multiple times independently, which follows a **binomial distribution**.
+
+* Total number of trials ($n$): $5$
+* Desired number of heads/successes ($k$): $3$
+* Probability of getting a head on a single toss ($p$): $0.5$ (or $\frac{1}{2}$)
+* Probability of getting a tail on a single toss ($q = 1 - p$): $0.5$ (or $\frac{1}{2}$)
+
+---
+
+### **Step 2: Apply the Binomial Probability Formula**
+The probability of getting exactly $k$ successes in $n$ independent trials is given by:
+
+$$P(X = k) = \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k}$$
+
+Where $\binom{n}{k}$ is the number of combinations:
+$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+
+---
+
+### **Step 3: Perform the Calculations**
+
+1. **Calculate the number of ways to choose 3 heads out of 5 tosses $\binom{5}{3}$:**
+   $$\binom{5}{3} = \frac{5!}{3!(5-3)!} = \frac{5 \times 4 \times 3 \times 2 \times 1}{(3 \times 2 \times 1) \times (2 \times 1)} = \frac{20}{2} = 10$$
+
+2. **Calculate the probability of a specific sequence of 3 heads and 2 tails:**
+   $$p^3 \cdot (1-p)^{5-3} = \left(\frac{1}{2}\right)^3 \cdot \left(\frac{1}{2}\right)^2 = \left(\frac{1}{2}\right)^5 = \frac{1}{32}$$
+
+3. **Multiply the combinations by the probability of a single sequence:**
+   $$P(X = 3) = 10 \times \frac{1}{32} = \frac{10}{32}$$
+
+---
+
+### **Step 4: Simplify and Verify the Result**
+
+* Simplifying the fraction:
+  $$\frac{10}{32} = \frac{5}{16}$$
+
+* As a decimal:
+  $$\frac{5}{16} = 0.3125$$
+
+---
+
+### **Final Answer**
+The probability of getting exactly 3 heads in 5 tosses of a fair coin is **$\frac{5}{16}$** (or **$0.3125$** / **$31.25\%$**).",4.883,4.883,61.0,623.0,success,gemini-3.6-flash
+Q013,Mathematics,Hard,Direct,"If f(x) = x³ - 3x² + 2, find f'(2).",0,0,9.722,16.569,40.0,1.0,success,gemini-3.6-flash
+Q013,Mathematics,Hard,Structured,"If f(x) = x³ - 3x² + 2, find f'(2).",0,"To solve for $f'(2)$, we will follow a structured step-by-step approach.
+
+---
+
+### **Step 1: Identify the given function**
+The given function is:
+$$f(x) = x^3 - 3x^2 + 2$$
+
+---
+
+### **Step 2: Find the general derivative $f'(x)$**
+We use the basic rules of differentiation:
+1. **Power Rule:** $\frac{d}{dx}[x^n] = n x^{n-1}$
+2. **Constant Multiple Rule:** $\frac{d}{dx}[c \cdot g(x)] = c \cdot g'(x)$
+3. **Constant Rule:** $\frac{d}{dx}[c] = 0$
+
+Applying these rules term-by-term:
+* $\frac{d}{dx}[x^3] = 3x^2$
+* $\frac{d}{dx}[-3x^2] = -3(2x) = -6x$
+* $\frac{d}{dx}[2] = 0$
+
+Combining the terms gives:
+$$f'(x) = 3x^2 - 6x$$
+
+---
+
+### **Step 3: Evaluate $f'(x)$ at $x = 2$**
+Substitute $x = 2$ into the derivative function $f'(x)$:
+$$f'(2) = 3(2)^2 - 6(2)$$
+$$f'(2) = 3(4) - 12$$
+$$f'(2) = 12 - 12 = 0$$
+
+---
+
+### **Step 4: Check the result**
+We can factor the derivative to double-check:
+$$f'(x) = 3x(x - 2)$$
+Plugging in $x = 2$:
+$$f'(2) = 3(2)(2 - 2) = 6(0) = 0$$
+
+The calculation is confirmed to be correct.
+
+---
+
+### **Final Answer**
+$$f'(2) = 0$$",12.519,12.519,63.0,457.0,success,gemini-3.6-flash
+Q014,Mathematics,Hard,Direct,A geometric progression has first term 3 and common ratio 2. Find the sum of its first 8 terms.,765,765,7.126,7.126,42.0,3.0,success,gemini-3.6-flash
+Q014,Mathematics,Hard,Structured,A geometric progression has first term 3 and common ratio 2. Find the sum of its first 8 terms.,765,"Here is the step-by-step solution to the problem:
+
+---
+
+### **Step 1: Identify the given values**
+From the problem description, we are given:
+* First term ($a$) = $3$
+* Common ratio ($r$) = $2$
+* Number of terms ($n$) = $8$
+
+---
+
+### **Step 2: Recall the sum formula for a Geometric Progression**
+The formula for the sum of the first $n$ terms ($S_n$) of a geometric progression is:
+$$S_n = \frac{a(r^n - 1)}{r - 1} \quad \text{for } r \neq 1$$
+
+---
+
+### **Step 3: Substitute the values and calculate**
+Substitute $a = 3$, $r = 2$, and $n = 8$ into the formula:
+
+$$S_8 = \frac{3(2^8 - 1)}{2 - 1}$$
+
+1. Calculate $2^8$:
+   $$2^8 = 256$$
+
+2. Subtract $1$:
+   $$256 - 1 = 255$$
+
+3. Multiply by $a = 3$ and divide by $r - 1 = 1$:
+   $$S_8 = \frac{3 \times 255}{1} = 765$$
+
+---
+
+### **Step 4: Check the result**
+We can verify the answer by writing out and adding the first 8 terms individually:
+* Term 1: $3$
+* Term 2: $6$
+* Term 3: $12$
+* Term 4: $24$
+* Term 5: $48$
+* Term 6: $96$
+* Term 7: $192$
+* Term 8: $384$
+
+$$\text{Sum} = 3 + 6 + 12 + 24 + 48 + 96 + 192 + 384 = 765$$
+
+The calculation is correct.
+
+---
+
+### **Final Answer:**
+The sum of the first 8 terms of the geometric progression is **765**.",7.345,7.345,65.0,492.0,success,gemini-3.6-flash
+Q015,Mathematics,Hard,Direct,"Find the inverse of the matrix [[2, 1], [5, 3]].","[[3, -1], [-5, 2]]","[[3, -1], [-5, 2]]",3.667,3.667,36.0,12.0,success,gemini-3.6-flash
+Q015,Mathematics,Hard,Structured,"Find the inverse of the matrix [[2, 1], [5, 3]].","[[3, -1], [-5, 2]]","Here is the step-by-step solution to find the inverse of the matrix $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$.
+
+---
+
+### **Step 1: Identify the components of the matrix**
+For a general $2 \times 2$ matrix:
+$$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
+
+From the given matrix $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$:
+* $a = 2$
+* $b = 1$
+* $c = 5$
+* $d = 3$
+
+---
+
+### **Step 2: Calculate the determinant of the matrix**
+The formula for the determinant of a $2 \times 2$ matrix is:
+$$\det(A) = ad - bc$$
+
+Substitute the values:
+$$\det(A) = (2)(3) - (1)(5) = 6 - 5 = 1$$
+
+Since $\det(A) = 1 \neq 0$, the matrix is invertible.
+
+---
+
+### **Step 3: Apply the inverse matrix formula**
+The formula for the inverse of a $2 \times 2$ matrix is:
+$$A^{-1} = \frac{1}{\det(A)} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
+
+Substitute $\det(A) = 1$ and the corresponding elements into the formula:
+$$A^{-1} = \frac{1}{1} \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$
+
+---
+
+### **Step 4: Check the result**
+To verify, multiply $A$ by $A^{-1}$ to ensure it yields the identity matrix $I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$:
+
+$$A \cdot A^{-1} = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$
+
+* Top-left: $(2)(3) + (1)(-5) = 6 - 5 = 1$
+* Top-right: $(2)(-1) + (1)(2) = -2 + 2 = 0$
+* Bottom-left: $(5)(3) + (3)(-5) = 15 - 15 = 0$
+* Bottom-right: $(5)(-1) + (3)(2) = -5 + 6 = 1$
+
+$$A \cdot A^{-1} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
+
+The multiplication results in the identity matrix, so the calculation is correct.
+
+---
+
+### **Final Answer**
+The inverse of the matrix $\begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$ is:
+
+$$\begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$",11.937,26.203,59.0,718.0,success,gemini-3.6-flash
+Q016,Logical Reasoning,Easy,Direct,"Complete the series: 2, 4, 6, 8, __.",10,10,2.824,2.824,36.0,2.0,success,gemini-3.6-flash
+Q016,Logical Reasoning,Easy,Structured,"Complete the series: 2, 4, 6, 8, __.",10,"Here is the step-by-step solution to complete the series.
+
+---
+
+### **Step 1: Identify the given sequence**
+The given sequence is: **2, 4, 6, 8, __**
+
+---
+
+### **Step 2: Analyze the pattern**
+To find the pattern, calculate the difference between each consecutive pair of numbers:
+* $4 - 2 = +2$
+* $6 - 4 = +2$
+* $8 - 6 = +2$
+
+**Observation:** The sequence is an arithmetic progression where each term increases by **2** (or represents the sequence of positive even numbers).
+
+---
+
+### **Step 3: Perform the calculation**
+To find the next term in the series, add **2** to the last given number (8):
+
+$$\text{Next term} = 8 + 2 = 10$$
+
+---
+
+### **Step 4: Check the result**
+Inserting 10 into the series gives: **2, 4, 6, 8, 10**.
+* Pattern check: $2 (+2) \rightarrow 4 (+2) \rightarrow 6 (+2) \rightarrow 8 (+2) \rightarrow 10$.
+* The pattern is consistent throughout the entire sequence.
+
+---
+
+### **Final Answer:**
+The completed series is: **2, 4, 6, 8, 10** (the missing number is **10**).",8.038,8.038,59.0,318.0,success,gemini-3.6-flash
+Q017,Logical Reasoning,Easy,Direct,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly? Answer Yes or No.",No,No,5.037,5.037,43.0,1.0,success,gemini-3.6-flash
+Q017,Logical Reasoning,Easy,Structured,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly? Answer Yes or No.",No,"Here is the step-by-step logical breakdown of the problem:
+
+### **Step 1: Analyze the Given Premises**
+* **Premise 1:** All roses are flowers. 
+  *(This means the set of ""Roses"" is completely contained within the larger set of ""Flowers"".)*
+* **Premise 2:** Some flowers fade quickly. 
+  *(This means there is an overlap between the set of ""Flowers"" and the set of ""Things that fade quickly"".)*
+
+---
+
+### **Step 2: Evaluate the Conclusion**
+* **Proposed Conclusion:** Some roses fade quickly.
+  *(This claims that the overlap between ""Flowers"" and ""Things that fade quickly"" must include ""Roses"".)*
+
+---
+
+### **Step 3: Apply Logical Reasoning**
+* Just because ""some flowers"" fade quickly, it does not mean those specific flowers are roses. They could be tulips, lilies, or daisies. 
+* It is entirely possible that the flowers that fade quickly are outside the ""Roses"" group, while all roses do not fade quickly at all. 
+* Because the conclusion is not *guaranteed* to be true based on the premises, the argument is logically invalid.
+
+---
+
+### **Step 4: Check the Result with an Example**
+* Imagine a garden with 10 Flowers: 5 Roses and 5 Tulips.
+* Suppose 2 Tulips fade quickly (""some flowers fade quickly"" is TRUE).
+* All 5 Roses are flowers (""all roses are flowers"" is TRUE).
+* Do any roses fade quickly? No, only tulips fade quickly in this scenario. 
+
+Since the premises can be true while the conclusion is false, we cannot logically conclude that some roses fade quickly.
+
+---
+
+### **Final Answer:**
+**No**",16.318,16.318,66.0,382.0,success,gemini-3.6-flash
+Q018,Logical Reasoning,Easy,Direct,"Ravi is taller than Aman, and Aman is taller than Neha. Who is the shortest?",Neha,Neha,2.88,2.88,37.0,1.0,success,gemini-3.6-flash
+Q018,Logical Reasoning,Easy,Structured,"Ravi is taller than Aman, and Aman is taller than Neha. Who is the shortest?",Neha,"Here is the step-by-step solution to the question.
+
+---
+
+### **Step 1: Identify the given information**
+Let's list the individuals and the height relationships given in the prompt:
+1. **Ravi vs. Aman:** Ravi is taller than Aman ($\text{Ravi} > \text{Aman}$).
+2. **Aman vs. Neha:** Aman is taller than Neha ($\text{Aman} > \text{Neha}$).
+
+---
+
+### **Step 2: Combine the relationships to create an ordering**
+We can combine the two inequality statements into a single chain from tallest to shortest:
+
+$$\text{Ravi} > \text{Aman} > \text{Neha}$$
+
+* **Tallest:** Ravi
+* **Middle:** Aman
+* **Shortest:** Neha
+
+---
+
+### **Step 3: Verify the result**
+* Check statement 1: Is Ravi taller than Aman? Yes ($\text{Ravi} > \text{Aman}$).
+* Check statement 2: Is Aman taller than Neha? Yes ($\text{Aman} > \text{Neha}$).
+* By the transitive property, Ravi is also taller than Neha ($\text{Ravi} > \text{Neha}$).
+
+Since everyone is taller than Neha, Neha must be the shortest.
+
+---
+
+### **Final Answer:**
+**Neha** is the shortest.",5.106,5.107,60.0,300.0,success,gemini-3.6-flash
+Q019,Logical Reasoning,Easy,Direct,"If MONDAY is coded as NPOEBZ by shifting each letter one position forward, how is SUNDAY coded using the same rule?",TVOEBZ,TVOEBZ,14.536,21.344,47.0,4.0,success,gemini-3.6-flash
+Q019,Logical Reasoning,Easy,Structured,"If MONDAY is coded as NPOEBZ by shifting each letter one position forward, how is SUNDAY coded using the same rule?",TVOEBZ,"To solve this question, we will follow a structured step-by-step approach.
+
+### **Step 1: Understand the Rule**
+Analyze the given example **MONDAY → NPOEBZ**:
+* **M** + 1 = **N**
+* **O** + 1 = **P**
+* **N** + 1 = **O**
+* **D** + 1 = **E**
+* **A** + 1 = **B**
+* **Y** + 1 = **Z**
+
+The pattern is to shift each letter **one position forward** in the English alphabet.
+
+---
+
+### **Step 2: Apply the Rule to ""SUNDAY""**
+Apply the same +1 shift to each letter of the word **SUNDAY**:
+
+1. **S** + 1 → **T**
+2. **U** + 1 → **V**
+3. **N** + 1 → **O**
+4. **D** + 1 → **E**
+5. **A** + 1 → **B**
+6. **Y** + 1 → **Z**
+
+---
+
+### **Step 3: Check and Verify**
+Combining the transformed letters gives **TVOEBZ**.
+
+* S → T 
+* U → V 
+* N → O 
+* D → E 
+* A → B 
+* Y → Z 
+
+The transformations are accurate and follow the exact rule.
+
+---
+
+### **Final Answer:**
+**SUNDAY** is coded as **TVOEBZ**.",5.941,19.618,70.0,339.0,success,gemini-3.6-flash
+Q020,Logical Reasoning,Easy,Direct,"Which number does not belong: 9, 16, 25, 36, 49?",None; all are perfect squares,16,14.829,14.829,43.0,2.0,success,gemini-3.6-flash
+Q020,Logical Reasoning,Easy,Structured,"Which number does not belong: 9, 16, 25, 36, 49?",None; all are perfect squares,"Here is the step-by-step solution to determine which number does not belong in the group: **9, 16, 25, 36, 49**.
+
+---
+
+### **Step 1: Identify the primary rule or pattern**
+First, observe the relation between all the given numbers:
+* $9 = 3^2$
+* $16 = 4^2$
+* $25 = 5^2$
+* $36 = 6^2$
+* $49 = 7^2$
+
+**Observation:** All numbers in the set are perfect squares of consecutive integers from $3$ to $7$.
+
+---
+
+### **Step 2: Look for unique properties to find the outlier**
+
+Since all numbers follow the perfect square rule, we look for a secondary mathematical property that applies to four of the numbers, but not the fifth:
+
+1. **Powers (Exponents):**
+   * $9 = 3^2$
+   * **$16 = 4^2 = 2^4$**
+   * $25 = 5^2$
+   * $36 = 6^2$
+   * $49 = 7^2$
+   * **Finding:** **16** is the only number in the list that is a **4th power** ($2^4$) in addition to being a square ($4^2$). All other numbers are strictly squares (2nd powers) of prime or composite numbers.
+
+2. **Alternative Distinction (Triangular Numbers):**
+   * **$36$** is the only number in the set that is also a **triangular number** ($1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36$).
+
+---
+
+### **Step 3: Final Verification & Conclusion**
+
+The most standard answer in number-pattern puzzles is **16**, because while every other number in the set can *only* be expressed as a square ($n^2$), **16** can also be expressed as a higher power ($2^4$).
+
+---
+
+### **Final Answer:**
+**16** does not belong (it is the only 4th power: $2^4$).",19.361,19.361,66.0,489.0,success,gemini-3.6-flash
+Q021,Logical Reasoning,Medium,Direct,"Five people P, Q, R, S, and T stand in a line. P is before Q, R is after Q, S is before P, and T is after R. Who is in the middle?",Q,Q,3.603,3.603,62.0,1.0,success,gemini-3.6-flash
+Q021,Logical Reasoning,Medium,Structured,"Five people P, Q, R, S, and T stand in a line. P is before Q, R is after Q, S is before P, and T is after R. Who is in the middle?",Q,"Here is the step-by-step solution to the problem:
+
+---
+
+### **Step 1: Analyze the Given Information**
+We have five people: P, Q, R, S, and T. Let ""before"" mean coming earlier (further left) in the line and ""after"" mean coming later (further right).
+
+The problem gives us four conditions:
+1. **P is before Q** $\rightarrow$ $P < Q$
+2. **R is after Q** $\rightarrow$ $Q < R$
+3. **S is before P** $\rightarrow$ $S < P$
+4. **T is after R** $\rightarrow$ $R < T$
+
+---
+
+### **Step 2: Combine the Relationships to Determine the Sequence**
+
+* From condition (3) and condition (1):  
+  Since $S$ is before $P$, and $P$ is before $Q$, we get:  
+  **$S < P < Q$**
+
+* Adding condition (2):  
+  Since $Q$ is before $R$, we extend the sequence to:  
+  **$S < P < Q < R$**
+
+* Adding condition (4):  
+  Since $R$ is before $T$, we complete the sequence:  
+  **$S < P < Q < R < T$**
+
+---
+
+### **Step 3: Identify Positions**
+
+Standing from front to back:
+* **1st position:** S
+* **2nd position:** P
+* **3rd position (Middle):** **Q**
+* **4th position:** R
+* **5th position:** T
+
+---
+
+### **Step 4: Verify the Result**
+* **P before Q?** Yes (2nd before 3rd)
+* **R after Q?** Yes (4th after 3rd)
+* **S before P?** Yes (1st before 2nd)
+* **T after R?** Yes (5th after 4th)
+
+All conditions are fully satisfied.
+
+---
+
+### **Final Answer:**
+**Q** is in the middle.",16.016,16.016,85.0,458.0,success,gemini-3.6-flash
+Q022,Logical Reasoning,Medium,Direct,"In a code, TABLE is written as UBCMF (each letter shifted forward by one). How is CHAIR written?",DIBJS,DIBJS,1.84,1.84,42.0,3.0,success,gemini-3.6-flash
+Q022,Logical Reasoning,Medium,Structured,"In a code, TABLE is written as UBCMF (each letter shifted forward by one). How is CHAIR written?",DIBJS,"Here is the step-by-step solution to the problem:
+
+### **Step 1: Analyze the pattern in the given example**
+Examine how **TABLE** is transformed into **UBCMF**:
+* **T** $+ 1 \rightarrow$ **U**
+* **A** $+ 1 \rightarrow$ **B**
+* **B** $+ 1 \rightarrow$ **C**
+* **L** $+ 1 \rightarrow$ **M**
+* **E** $+ 1 \rightarrow$ **F**
+
+**Rule Identified:** Each letter in the word is shifted forward by 1 position in the English alphabet ($+1$).
+
+---
+
+### **Step 2: Apply the rule to the target word (CHAIR)**
+Shift each letter of **CHAIR** forward by 1 position:
+* **C** $+ 1 \rightarrow$ **D**
+* **H** $+ 1 \rightarrow$ **I**
+* **A** $+ 1 \rightarrow$ **B**
+* **I** $+ 1 \rightarrow$ **J**
+* **R** $+ 1 \rightarrow$ **S**
+
+---
+
+### **Step 3: Check the result**
+Combining the shifted letters gives: **D - I - B - J - S**
+
+---
+
+### **Final Answer:**
+**CHAIR** is written as **DIBJS**.",2.94,2.94,65.0,295.0,success,gemini-3.6-flash
+Q023,Logical Reasoning,Medium,Direct,A clock shows 3:30. What is the smaller angle between the hour and minute hands?,75 degrees,75°,1.893,1.893,39.0,3.0,success,gemini-3.6-flash
+Q023,Logical Reasoning,Medium,Structured,A clock shows 3:30. What is the smaller angle between the hour and minute hands?,75 degrees,"To find the smaller angle between the hour and minute hands of a clock at 3:30, we can follow a structured step-by-step approach.
+
+---
+
+### **Step 1: Determine the rate of movement for each hand**
+A clock face is a circle of $360^\circ$ divided into 12 hours and 60 minutes.
+* **Minute hand:** Moves $360^\circ$ in 60 minutes, which is $\frac{360^\circ}{60} = 6^\circ$ per minute.
+* **Hour hand:** Moves $360^\circ$ in 12 hours ($720$ minutes), which is $\frac{360^\circ}{720} = 0.5^\circ$ per minute (or $30^\circ$ per hour).
+
+---
+
+### **Step 2: Calculate the position of the minute hand at 3:30**
+Using 12:00 ($0^\circ$) as the reference starting point:
+$$\text{Minute hand angle} = 30 \text{ minutes} \times 6^\circ/\text{minute} = 180^\circ$$
+
+---
+
+### **Step 3: Calculate the position of the hour hand at 3:30**
+At 3:00, the hour hand is at $3 \times 30^\circ = 90^\circ$.
+In the 30 minutes that pass:
+$$\text{Additional degrees} = 30 \text{ minutes} \times 0.5^\circ/\text{minute} = 15^\circ$$
+
+Adding this to the position at 3:00:
+$$\text{Hour hand angle} = 90^\circ + 15^\circ = 105^\circ$$
+
+---
+
+### **Step 4: Find the angle between the two hands**
+Subtract the position of the hour hand from the position of the minute hand:
+$$\text{Angle} = |180^\circ - 105^\circ| = 75^\circ$$
+
+---
+
+### **Step 5: Verify using the standard formula and check for smaller angle**
+The standard clock angle formula is:
+$$\text{Angle} = |30H - 5.5M|$$
+Where $H = 3$ and $M = 30$:
+$$\text{Angle} = |30(3) - 5.5(30)|$$
+$$\text{Angle} = |90 - 165| = |-75^\circ| = 75^\circ$$
+
+Since $75^\circ \le 180^\circ$, it is already the smaller angle (the larger angle would be $360^\circ - 75^\circ = 285^\circ$).
+
+---
+
+### **Final Answer:**
+The smaller angle between the hour and minute hands at 3:30 is **$75^\circ$** (or **75 degrees**).",6.432,6.432,62.0,666.0,success,gemini-3.6-flash
+Q024,Logical Reasoning,Medium,Direct,A is the brother of B. B is the mother of C. How is A related to C?,Maternal uncle,,,,,,failed,gemini-3.6-flash
+Q024,Logical Reasoning,Medium,Structured,A is the brother of B. B is the mother of C. How is A related to C?,Maternal uncle,"Here is the step-by-step solution to the problem.
+
+---
+
+### **Step 1: Identify the given information**
+1. **First statement:** ""A is the brother of B.""
+   * **Gender of A:** Male (brother)
+   * **Relationship:** A and B are siblings.
+2. **Second statement:** ""B is the mother of C.""
+   * **Gender of B:** Female (mother)
+   * **Relationship:** B is the parent of C.
+
+---
+
+### **Step 2: Trace the relationship from A to C**
+* C's mother is **B**.
+* **A** is the brother of C's mother (**B**).
+
+---
+
+### **Step 3: Determine the familial relation**
+* The brother of one's mother is defined as a **Maternal Uncle** (or simply **Uncle**).
+
+---
+
+### **Step 4: Verify the result**
+* **Diagram:**
+  $$\text{A (Male)} \xleftrightarrow{\quad\text{Brother--Sister}\quad} \text{B (Female)} \xrightarrow[\quad\text{Mother of}\quad]{} \text{C (Child)}$$
+* Since A is B's brother and B is C's mother, A is indeed C's uncle.
+
+---
+
+### **Final Answer:**
+**A is the uncle (or maternal uncle) of C.**",4.392,19.68,62.0,305.0,success,gemini-3.6-flash
+Q025,Logical Reasoning,Medium,Direct,"Find the next term: 3, 8, 15, 24, 35, __.",48,48,1.862,1.862,43.0,2.0,success,gemini-3.6-flash
+Q025,Logical Reasoning,Medium,Structured,"Find the next term: 3, 8, 15, 24, 35, __.",48,"Here is the step-by-step solution to find the next term in the sequence.
+
+---
+
+### **Step 1: Analyze the differences between consecutive terms**
+Let's find the difference between each adjacent pair of numbers:
+* $8 - 3 = 5$
+* $15 - 8 = 7$
+* $24 - 15 = 9$
+* $35 - 24 = 11$
+
+The sequence of differences is **5, 7, 9, 11**. 
+This is a sequence of consecutive odd numbers increasing by $2$ each time.
+
+---
+
+### **Step 2: Determine the next difference**
+Following the pattern of odd numbers ($5, 7, 9, 11$), the next difference must be:
+$$11 + 2 = 13$$
+
+---
+
+### **Step 3: Calculate the next term**
+Add the next difference ($13$) to the last term of the sequence ($35$):
+$$\text{Next term} = 35 + 13 = 48$$
+
+---
+
+### **Step 4: Verification using alternative methods**
+
+* **Method 2 (Perfect Squares minus 1):**
+  * $2^2 - 1 = 4 - 1 = 3$
+  * $3^2 - 1 = 9 - 1 = 8$
+  * $4^2 - 1 = 16 - 1 = 15$
+  * $5^2 - 1 = 25 - 1 = 24$
+  * $6^2 - 1 = 36 - 1 = 35$
+  * **Next term:** $7^2 - 1 = 49 - 1 = 48$
+
+* **Method 3 (Product of factors):**
+  * $1 \times 3 = 3$
+  * $2 \times 4 = 8$
+  * $3 \times 5 = 15$
+  * $4 \times 6 = 24$
+  * $5 \times 7 = 35$
+  * **Next term:** $6 \times 8 = 48$
+
+All methods consistently yield **48**.
+
+---
+
+### **Final Answer:**
+The next term in the sequence is **48**.",5.958,5.958,66.0,529.0,success,gemini-3.6-flash
+Q026,Logical Reasoning,Hard,Direct,"Six people A, B, C, D, E, and F sit in a row. A is immediately left of B; C is immediately right of B; D is at the left end; E is immediately left of F; and F is at the right end. Who sits third from the left?",B,,,,,,failed,gemini-3.6-flash
+Q026,Logical Reasoning,Hard,Structured,"Six people A, B, C, D, E, and F sit in a row. A is immediately left of B; C is immediately right of B; D is at the left end; E is immediately left of F; and F is at the right end. Who sits third from the left?",B,,,,,,failed,gemini-3.6-flash
+Q027,Logical Reasoning,Hard,Direct,"A statement says: 'If the alarm is set, the light is on.' The light is off. Assuming the statement is true, what can be concluded about the alarm?",The alarm is not set,,,,,,failed,gemini-3.6-flash
+Q027,Logical Reasoning,Hard,Structured,"A statement says: 'If the alarm is set, the light is on.' The light is off. Assuming the statement is true, what can be concluded about the alarm?",The alarm is not set,,,,,,failed,gemini-3.6-flash
+Q028,Logical Reasoning,Hard,Direct,"Find the missing number: 1, 2, 6, 24, 120, __.",720,,,,,,failed,gemini-3.6-flash
+Q028,Logical Reasoning,Hard,Structured,"Find the missing number: 1, 2, 6, 24, 120, __.",720,,,,,,failed,gemini-3.6-flash
+Q029,Logical Reasoning,Hard,Direct,"Three boxes are labelled Apples, Oranges, and Mixed. Every label is incorrect. You may pick one fruit from one box. From which labelled box should you pick to identify all boxes?",The box labelled Mixed,,,,,,failed,gemini-3.6-flash
+Q029,Logical Reasoning,Hard,Structured,"Three boxes are labelled Apples, Oranges, and Mixed. Every label is incorrect. You may pick one fruit from one box. From which labelled box should you pick to identify all boxes?",The box labelled Mixed,,,,,,failed,gemini-3.6-flash
+Q030,Logical Reasoning,Hard,Direct,"In a group of 60 students, 35 study Python, 30 study Java, and 10 study neither. How many study both Python and Java?",15,,,,,,failed,gemini-3.6-flash
+Q030,Logical Reasoning,Hard,Structured,"In a group of 60 students, 35 study Python, 30 study Java, and 10 study neither. How many study both Python and Java?",15,,,,,,failed,gemini-3.6-flash
+Q031,Aptitude,Easy,Direct,A car travels 150 km in 3 hours at a constant speed. What is its speed in km/h?,50 km/h,,,,,,failed,gemini-3.6-flash
+Q031,Aptitude,Easy,Structured,A car travels 150 km in 3 hours at a constant speed. What is its speed in km/h?,50 km/h,,,,,,failed,gemini-3.6-flash
+Q032,Aptitude,Easy,Direct,"A product costs ₹800 and is sold for ₹1,000. What is the profit percentage?",25%,,,,,,failed,gemini-3.6-flash
+Q032,Aptitude,Easy,Structured,"A product costs ₹800 and is sold for ₹1,000. What is the profit percentage?",25%,,,,,,failed,gemini-3.6-flash
+Q033,Aptitude,Easy,Direct,"If 6 notebooks cost ₹90, what is the cost of 10 notebooks at the same rate?",₹150,,,,,,failed,gemini-3.6-flash
+Q033,Aptitude,Easy,Structured,"If 6 notebooks cost ₹90, what is the cost of 10 notebooks at the same rate?",₹150,,,,,,failed,gemini-3.6-flash
+Q034,Aptitude,Easy,Direct,"A person earns ₹20,000 per month and saves 15% of it. How much does the person save?","₹3,000",,,,,,failed,gemini-3.6-flash
+Q034,Aptitude,Easy,Structured,"A person earns ₹20,000 per month and saves 15% of it. How much does the person save?","₹3,000",,,,,,failed,gemini-3.6-flash
+Q035,Aptitude,Easy,Direct,A train covers 120 km in 2 hours. How far will it travel in 5 hours at the same speed?,300 km,,,,,,failed,gemini-3.6-flash
+Q035,Aptitude,Easy,Structured,A train covers 120 km in 2 hours. How far will it travel in 5 hours at the same speed?,300 km,,,,,,failed,gemini-3.6-flash
+Q036,Aptitude,Medium,Direct,A can complete a job in 6 days and B can complete it in 3 days. How long will they take working together?,2 days,,,,,,failed,gemini-3.6-flash
+Q036,Aptitude,Medium,Structured,A can complete a job in 6 days and B can complete it in 3 days. How long will they take working together?,2 days,,,,,,failed,gemini-3.6-flash
+Q037,Aptitude,Medium,Direct,A 30-litre mixture contains 40% milk. How many litres of pure milk must be added to make the mixture 50% milk?,6 litres,,,,,,failed,gemini-3.6-flash
+Q037,Aptitude,Medium,Structured,A 30-litre mixture contains 40% milk. How many litres of pure milk must be added to make the mixture 50% milk?,6 litres,,,,,,failed,gemini-3.6-flash
+Q038,Aptitude,Medium,Direct,"The average of 8 numbers is 24. If one number, 32, is removed, what is the average of the remaining 7 numbers?",160/7 (approximately 22.857),,,,,,failed,gemini-3.6-flash
+Q038,Aptitude,Medium,Structured,"The average of 8 numbers is 24. If one number, 32, is removed, what is the average of the remaining 7 numbers?",160/7 (approximately 22.857),,,,,,failed,gemini-3.6-flash
+Q039,Aptitude,Medium,Direct,"A sum of ₹5,000 is invested at 8% simple interest per annum for 3 years. Find the interest.","₹1,200",,,,,,failed,gemini-3.6-flash
+Q039,Aptitude,Medium,Structured,"A sum of ₹5,000 is invested at 8% simple interest per annum for 3 years. Find the interest.","₹1,200",,,,,,failed,gemini-3.6-flash
+Q040,Aptitude,Medium,Direct,A number is increased by 20% and then decreased by 20%. What is the net percentage change?,4% decrease,,,,,,failed,gemini-3.6-flash
+Q040,Aptitude,Medium,Structured,A number is increased by 20% and then decreased by 20%. What is the net percentage change?,4% decrease,,,,,,failed,gemini-3.6-flash
+Q041,Aptitude,Hard,Direct,A and B together can complete a task in 12 days. A alone can complete it in 20 days. How many days will B alone take?,30 days,,,,,,failed,gemini-3.6-flash
+Q041,Aptitude,Hard,Structured,A and B together can complete a task in 12 days. A alone can complete it in 20 days. How many days will B alone take?,30 days,,,,,,failed,gemini-3.6-flash
+Q042,Aptitude,Hard,Direct,A train 180 metres long crosses a pole in 12 seconds. What is its speed in km/h?,54 km/h,,,,,,failed,gemini-3.6-flash
+Q042,Aptitude,Hard,Structured,A train 180 metres long crosses a pole in 12 seconds. What is its speed in km/h?,54 km/h,,,,,,failed,gemini-3.6-flash
+Q043,Aptitude,Hard,Direct,A vessel contains 60 litres of a milk-water mixture in the ratio 2:1. How much water must be added to make the ratio 1:1?,20 litres,,,,,,failed,gemini-3.6-flash
+Q043,Aptitude,Hard,Structured,A vessel contains 60 litres of a milk-water mixture in the ratio 2:1. How much water must be added to make the ratio 1:1?,20 litres,,,,,,failed,gemini-3.6-flash
+Q044,Aptitude,Hard,Direct,"The marked price of an item is ₹2,500. After successive discounts of 10% and 20%, what is the final selling price?","₹1,800",,,,,,failed,gemini-3.6-flash
+Q044,Aptitude,Hard,Structured,"The marked price of an item is ₹2,500. After successive discounts of 10% and 20%, what is the final selling price?","₹1,800",,,,,,failed,gemini-3.6-flash
+Q045,Aptitude,Hard,Direct,A person travels the first half of a journey at 40 km/h and the second half at 60 km/h. What is the average speed for the whole journey?,48 km/h,,,,,,failed,gemini-3.6-flash
+Q045,Aptitude,Hard,Structured,A person travels the first half of a journey at 40 km/h and the second half at 60 km/h. What is the average speed for the whole journey?,48 km/h,,,,,,failed,gemini-3.6-flash
+Q046,Algorithms,Easy,Direct,"Which linear data structure follows the Last-In, First-Out (LIFO) principle?",Stack,,,,,,failed,gemini-3.6-flash
+Q046,Algorithms,Easy,Structured,"Which linear data structure follows the Last-In, First-Out (LIFO) principle?",Stack,,,,,,failed,gemini-3.6-flash
+Q047,Algorithms,Easy,Direct,What is the worst-case time complexity of accessing an element by index in an array?,O(1),,,,,,failed,gemini-3.6-flash
+Q047,Algorithms,Easy,Structured,What is the worst-case time complexity of accessing an element by index in an array?,O(1),,,,,,failed,gemini-3.6-flash
+Q048,Algorithms,Easy,Direct,Which traversal of a binary search tree visits keys in non-decreasing order?,Inorder traversal,,,,,,failed,gemini-3.6-flash
+Q048,Algorithms,Easy,Structured,Which traversal of a binary search tree visits keys in non-decreasing order?,Inorder traversal,,,,,,failed,gemini-3.6-flash
+Q049,Algorithms,Easy,Direct,What is the time complexity of linear search in the worst case for an array of n elements?,O(n),,,,,,failed,gemini-3.6-flash
+Q049,Algorithms,Easy,Structured,What is the time complexity of linear search in the worst case for an array of n elements?,O(n),,,,,,failed,gemini-3.6-flash
+Q050,Algorithms,Easy,Direct,Which data structure is commonly used to implement Breadth-First Search (BFS)?,Queue,,,,,,failed,gemini-3.6-flash
+Q050,Algorithms,Easy,Structured,Which data structure is commonly used to implement Breadth-First Search (BFS)?,Queue,,,,,,failed,gemini-3.6-flash
+Q051,Algorithms,Medium,Direct,What is the worst-case time complexity of binary search on a sorted array of n elements?,O(log n),,,,,,failed,gemini-3.6-flash
+Q051,Algorithms,Medium,Structured,What is the worst-case time complexity of binary search on a sorted array of n elements?,O(log n),,,,,,failed,gemini-3.6-flash
+Q052,Algorithms,Medium,Direct,"An algorithm has two consecutive loops, each running n times, with constant work per iteration. What is its time complexity?",O(n),,,,,,failed,gemini-3.6-flash
+Q052,Algorithms,Medium,Structured,"An algorithm has two consecutive loops, each running n times, with constant work per iteration. What is its time complexity?",O(n),,,,,,failed,gemini-3.6-flash
+Q053,Algorithms,Medium,Direct,"What is the time complexity of inserting a new node at the beginning of a singly linked list, given a pointer to the head?",O(1),,,,,,failed,gemini-3.6-flash
+Q053,Algorithms,Medium,Structured,"What is the time complexity of inserting a new node at the beginning of a singly linked list, given a pointer to the head?",O(1),,,,,,failed,gemini-3.6-flash
+Q054,Algorithms,Medium,Direct,Which sorting algorithm has worst-case time complexity O(n log n) and is based on dividing the array into two halves and merging them?,Merge sort,,,,,,failed,gemini-3.6-flash
+Q054,Algorithms,Medium,Structured,Which sorting algorithm has worst-case time complexity O(n log n) and is based on dividing the array into two halves and merging them?,Merge sort,,,,,,failed,gemini-3.6-flash
+Q055,Algorithms,Medium,Direct,"For a graph represented by an adjacency list, what is the time complexity of BFS in terms of vertices V and edges E?",O(V + E),,,,,,failed,gemini-3.6-flash
+Q055,Algorithms,Medium,Structured,"For a graph represented by an adjacency list, what is the time complexity of BFS in terms of vertices V and edges E?",O(V + E),,,,,,failed,gemini-3.6-flash
+Q056,Algorithms,Hard,Direct,What is the worst-case time complexity of Quick Sort when the pivot repeatedly produces partitions of sizes 0 and n-1?,O(n²),,,,,,failed,gemini-3.6-flash
+Q056,Algorithms,Hard,Structured,What is the worst-case time complexity of Quick Sort when the pivot repeatedly produces partitions of sizes 0 and n-1?,O(n²),,,,,,failed,gemini-3.6-flash
+Q057,Algorithms,Hard,Direct,"A recurrence is T(n) = 2T(n/2) + n, with T(1) = 1. What is its asymptotic time complexity?",O(n log n),,,,,,failed,gemini-3.6-flash
+Q057,Algorithms,Hard,Structured,"A recurrence is T(n) = 2T(n/2) + n, with T(1) = 1. What is its asymptotic time complexity?",O(n log n),,,,,,failed,gemini-3.6-flash
+Q058,Algorithms,Hard,Direct,"In a binary min-heap containing n elements, what is the worst-case time complexity of finding the minimum element?",O(1),,,,,,failed,gemini-3.6-flash
+Q058,Algorithms,Hard,Structured,"In a binary min-heap containing n elements, what is the worst-case time complexity of finding the minimum element?",O(1),,,,,,failed,gemini-3.6-flash
+Q059,Algorithms,Hard,Direct,What is the worst-case time complexity of building a binary heap from an unsorted array using bottom-up heap construction?,O(n),,,,,,failed,gemini-3.6-flash
+Q059,Algorithms,Hard,Structured,What is the worst-case time complexity of building a binary heap from an unsorted array using bottom-up heap construction?,O(n),,,,,,failed,gemini-3.6-flash
+Q060,Algorithms,Hard,Direct,A directed acyclic graph (DAG) has V vertices and E edges. What is the time complexity of topological sorting using Kahn's algorithm with an adjacency list?,O(V + E),,,,,,failed,gemini-3.6-flash
+Q060,Algorithms,Hard,Structured,A directed acyclic graph (DAG) has V vertices and E edges. What is the time complexity of topological sorting using Kahn's algorithm with an adjacency list?,O(V + E),,,,,,failed,gemini-3.6-flash
