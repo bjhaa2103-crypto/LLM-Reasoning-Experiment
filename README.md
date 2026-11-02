@@ -27,15 +27,16 @@ These are hypotheses to investigate, not assumed conclusions.
 
 ## 📊 Dataset
 
-The dataset contains 12 questions across four categories:
+The dataset contains 60 questions across four categories:
 
-| Category | Number of Questions |
-|---|---:|
-| Mathematics | 3 |
-| Logical Reasoning | 3 |
-| Aptitude | 3 |
-| Algorithms | 3 |
-| **Total** | **12** |
+| Category          | Number of questions |
+| ----------------- | ------------------: |
+| Mathematics       |                  15 |
+| Logical Reasoning |                  15 |
+| Aptitude          |                  15 |
+| Algorithms        |                  15 |
+| **Total**         |              **60** |
+
 
 Each question includes its category, difficulty level, question text, and expected correct answer.
 
