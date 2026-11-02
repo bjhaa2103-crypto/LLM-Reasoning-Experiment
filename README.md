@@ -40,7 +40,7 @@ The dataset contains 60 questions across four categories:
 
 Each question includes its category, difficulty level, question text, and expected correct answer.
 
-Dataset file: `data/questions.csv`
+Dataset file: `data/questions_60.csv`
 
 ## ⚙️ Methodology
 
